@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+outputs/
+checkpoints/
+*.safetensors
+.ipynb_checkpoints/
+data/latex_ocr_cache/

@@ -1,0 +1,9 @@
+unsloth
+torch
+transformers
+datasets
+trl
+peft
+accelerate
+bitsandbytes
+pillow
