@@ -2,6 +2,7 @@
 
 import json
 from pathlib import Path
+from typing import Optional
 
 import torch
 from peft import PeftModel
@@ -18,7 +19,7 @@ ADAPTER_DIRECTORY = PROJECT_ROOT / "checkpoints" / "lora_adapter"
 COMPARISONS_PATH = PROJECT_ROOT / "results" / "comparisons.md"
 
 
-def load_model(adapter_directory: Path | None = None):
+def load_model(adapter_directory: Optional[Path] = None):
     """Load the base Qwen2-VL model, optionally with the saved LoRA adapter."""
     model, tokenizer = FastVisionModel.from_pretrained(
         MODEL_NAME,

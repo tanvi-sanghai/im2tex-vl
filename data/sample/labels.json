@@ -1,0 +1,7 @@
+{
+  "sample_01.png": "{ \\frac { N } { M } } \\in { \\bf Z } , { \\frac { M } { P } } \\in { \\bf Z } , { \\frac { P } { Q } } \\in { \\bf Z }",
+  "sample_02.png": "D _ { \\mu } ^ { \\alpha \\beta } \\bar { A } _ { \\mu } ^ { \\alpha \\beta } = 0 ,",
+  "sample_03.png": "H ^ { \\prime } = \\beta N \\int d \\lambda \\biggl \\{ \\frac { 1 } { 2 \\beta ^ { 2 } N ^ { 2 } } \\partial _ { \\lambda } \\zeta ^ { \\dagger } \\partial _ { \\lambda } \\zeta + V ( \\lambda ) \\zeta ^ { \\dagger } \\zeta \\biggr \\} \\ .",
+  "sample_04.png": "\\sigma ^ { \\mu } \\frac { \\lambda ^ { a } } { 2 } A _ { \\mu } ^ { a } .",
+  "sample_05.png": "\\eta ( n _ { 1 } n _ { 2 } n k ) = \\alpha ( - 1 ) ^ { n _ { 1 } + n _ { 2 } + n }"
+}

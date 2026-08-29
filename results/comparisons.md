@@ -1,3 +1,9 @@
-# Model Comparisons
+# Base vs. Fine-Tuned Qwen2-VL
 
-Results will be generated after fine-tuning.
+| Image filename | Ground-truth LaTeX | Base model prediction | Fine-tuned model prediction |
+| --- | --- | --- | --- |
+| sample_01.png | { \frac { N } { M } } \in { \bf Z } , { \frac { M } { P } } \in { \bf Z } , { \frac { P } { Q } } \in { \bf Z } | The LaTeX representation for the image you provided is:<br><br>```latex<br>\begin{pmatrix}<br>N & M \\<br>\overline{Z} & P \\<br>\end{pmatrix}<br>``` | \frac { N } { M } \in Z , \quad \frac { P } { Z } \in Z , \quad \frac { Q } { Z } \in Z |
+| sample_02.png | D _ { \mu } ^ { \alpha \beta } \bar { A } _ { \mu } ^ { \alpha \beta } = 0 , | The LaTeX representation for the image you provided is:<br><br>$$ D_{\mu \beta}^{\alpha} \bar{A}_{\mu \beta} = 0, $$ | D _ { \mu } ^ { A } \bar { A } _ { \mu } ^ { \beta } = 0 , |
+| sample_03.png | H ^ { \prime } = \beta N \int d \lambda \biggl \{ \frac { 1 } { 2 \beta ^ { 2 } N ^ { 2 } } \partial _ { \lambda } \zeta ^ { \dagger } \partial _ { \lambda } \zeta + V ( \lambda ) \zeta ^ { \dagger } \zeta \biggr \} \ . | The LaTeX representation for the image is:<br><br>```latex<br>H' = \beta N \int d\lambda \left\{ \frac{1}{2\beta^2 N^2} \partial_\lambda \zeta^\dagger \partial_\lambda \zeta + V(\lambda) \zeta^\dagger \right\}.<br>``` | H ^ { \prime } = \beta N \int d \lambda \left\{ \frac { 1 } { 2 \beta ^ { 2 } N ^ { 2 } } \partial _ { \lambda } \zeta ^ { \dagger } \partial _ { \lambda } \zeta + V ( \lambda ) \zeta ^ { \dagger } \zeta \right\} . |
+| sample_04.png | \sigma ^ { \mu } \frac { \lambda ^ { a } } { 2 } A _ { \mu } ^ { a } . | \[<br>\sigma \mu \lambda^a \frac{\lambda^a}{2} A^{\mu \cdot}<br>\] | \sigma _ { \mu } \lambda ^ { a } \frac { 1 } { 2 } A ^ { a } \mu . |
+| sample_05.png | \eta ( n _ { 1 } n _ { 2 } n k ) = \alpha ( - 1 ) ^ { n _ { 1 } + n _ { 2 } + n } | The LaTeX representation for the image you provided is:<br><br>```latex<br>\begin{equation}<br>\eta(n_1n_2n_3) = \kappa(-1)^{n_1+n_2+n_3}<br>\end{equation}<br>``` | \eta ( n _ { 1 } n _ { 2 } n k ) = \alpha ( - 1 ) ^ { n _ { 1 } + n _ { 2 } + n } |

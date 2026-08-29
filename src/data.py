@@ -2,7 +2,7 @@
 
 import json
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 from datasets import Dataset, load_dataset
 
@@ -56,7 +56,7 @@ def export_demo_samples(dataset: Dataset, output_directory: Path = SAMPLE_DIRECT
         labels_file.write("\n")
 
 
-def load_and_format(n_train: int | None = None) -> Dataset:
+def load_and_format(n_train: Optional[int] = None) -> Dataset:
     """Load the dataset and return it in the vision-language conversation format."""
     dataset = load_raw_dataset()
     if n_train is not None:
