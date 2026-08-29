@@ -4,10 +4,11 @@ import json
 from pathlib import Path
 from typing import Optional
 
+from unsloth import FastVisionModel
+
 import torch
 from peft import PeftModel
 from PIL import Image
-from unsloth import FastVisionModel
 
 from src.data import INSTRUCTION
 
